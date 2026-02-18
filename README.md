@@ -74,6 +74,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
    
 7. Both cards flip back automatically
 
+Website link : https://dhruvc-2938.github.io/Flip_Card_Game_html/
 
 📸 Screenshots
 
