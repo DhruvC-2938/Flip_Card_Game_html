@@ -3,11 +3,13 @@
 A visually engaging Memory Card Flip Game built using HTML, CSS, and minimal JavaScript.
 The project emphasizes advanced CSS animations and layout techniques, while JavaScript is used only for essential game logic such as card matching, shuffling, and timer control.
 
+
 📌 Project Description
 
 This game challenges players to flip cards and find matching pairs.
 Each card uses a 3D flip animation, image-based card faces, and a clean grid layout.
 Cards are randomly shuffled on every reload, and a timer runs during gameplay and stops automatically when all cards are matched.
+
 
 🛠️ Technologies Used
 
@@ -39,6 +41,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 
 -> Random card shuffling 
 
+
 ✨ Features
 
 🎴 3D card flip animation
@@ -52,6 +55,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 🚫 Click lock during card comparison
 
 🎨 Smooth hover and interaction effects
+
 
 
 🧠 How the Game Works
@@ -70,7 +74,9 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
    
 7. Both cards flip back automatically
 
+
 📸 Screenshots
+
 
 <img width="1710" height="949" alt="Screenshot 2026-02-18 at 3 09 16 PM" src="https://github.com/user-attachments/assets/549c763c-8948-4e9c-bb1c-f4c84b20a1b5" />
 <img width="1710" height="946" alt="Screenshot 2026-02-18 at 3 10 22 PM" src="https://github.com/user-attachments/assets/33f4e06c-9c1c-4c56-9e3c-86bae487ed6f" />
