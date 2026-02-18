@@ -19,7 +19,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 
 -> data-value attributes for match comparison
 
-3. CSS3
+2. CSS3
    
 -> CSS Grid for layout
    
@@ -31,7 +31,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 
 -> Image scaling and responsive design
 
-5. JavaScript (Minimal Usage)
+3. JavaScript (Minimal Usage)
    
 -> Card flip handling
    
