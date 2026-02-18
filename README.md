@@ -9,91 +9,47 @@ This game challenges players to flip cards and find matching pairs.
 Each card uses a 3D flip animation, image-based card faces, and a clean grid layout.
 Cards are randomly shuffled on every reload, and a timer runs during gameplay and stops automatically when all cards are matched.
 
-The project is designed with a strong focus on CSS-driven visuals and clean separation of concerns.
-
 🛠️ Technologies Used
-HTML5
 
-Semantic structure (header, main)
+1. HTML5
+-> Semantic structure (header, main)
+-> Reusable card components
+-> data-value attributes for match comparison
 
-Reusable card components
+2. CSS3
+-> CSS Grid for layout
+-> 3D transforms (perspective, rotateY, preserve-3d)
+-> Transitions and hover effects
+-> Keyframe animation for matched cards (pulse effect)
+-> Image scaling and responsive design
 
-data-value attributes for match comparison
-
-CSS3
-
-CSS Grid for layout
-
-3D transforms (perspective, rotateY, preserve-3d)
-
-Transitions and hover effects
-
-Keyframe animation for matched cards (pulse effect)
-
-Image scaling and responsive design
-
-JavaScript (Minimal Usage)
-
-Card flip handling
-
-Match validation logic
-
-Random card shuffling using CSS order
-
-Game timer using setInterval
-
-Automatic timer stop on game completion
+3. JavaScript (Minimal Usage)
+-> Card flip handling
+-> Match validation logic
+-> Random card shuffling using CSS order
+-> Game timer using setInterval
+-> Automatic timer stop on game completion
 
 ✨ Features
 
 🎴 3D card flip animation
-
 🖼️ Image-based card backs
-
 🔀 Random card positions on every restart
-
 ✅ Matched cards remain flipped with pulse animation
-
-⏱️ Timer that stops when all cards are matched
-
 🚫 Click lock during card comparison
-
 🎨 Smooth hover and interaction effects
 
 🧠 How the Game Works
+1. Click on a card to flip it
+2. Flip a second card to check for a match
+3. If cards match:
+4. They stay flipped
+5. A pulse animation plays
+6. If cards do not match:
+7. Both cards flip back automatically
 
-Click on a card to flip it
+📸 Screenshots
+<img width="1710" height="949" alt="Screenshot 2026-02-18 at 3 09 16 PM" src="https://github.com/user-attachments/assets/549c763c-8948-4e9c-bb1c-f4c84b20a1b5" />
+<img width="1710" height="946" alt="Screenshot 2026-02-18 at 3 10 22 PM" src="https://github.com/user-attachments/assets/33f4e06c-9c1c-4c56-9e3c-86bae487ed6f" />
 
-Flip a second card to check for a match
 
-If cards match:
-
-They stay flipped
-
-A pulse animation plays
-
-If cards do not match:
-
-Both cards flip back automatically
-
-🚀 How to Run the Project
-
-Clone or download this repository
-
-Open index.html in a modern web browser
-
-Start playing by flipping the cards
-
-No additional setup is required.
-
-🎯 Learning Outcomes
-
-Understanding CSS-based animations and 3D transforms
-
-Applying CSS Grid for structured layouts
-
-Using minimal JavaScript for state and logic control
-
-Implementing timers and game-completion checks
-
-Maintaining clean and readable front-end code
