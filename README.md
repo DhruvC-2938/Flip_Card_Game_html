@@ -12,6 +12,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 🛠️ Technologies Used
 
 1. HTML5
+   
 -> Semantic structure (header, main)
    
 -> Reusable card components
@@ -19,6 +20,7 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 -> data-value attributes for match comparison
 
 3. CSS3
+   
 -> CSS Grid for layout
    
 -> 3D transforms (perspective, rotateY, preserve-3d)
@@ -30,15 +32,12 @@ Cards are randomly shuffled on every reload, and a timer runs during gameplay an
 -> Image scaling and responsive design
 
 5. JavaScript (Minimal Usage)
+   
 -> Card flip handling
    
 -> Match validation logic
 
--> Random card shuffling using CSS order
-
--> Game timer using setInterval
-
--> Automatic timer stop on game completion
+-> Random card shuffling 
 
 ✨ Features
 
